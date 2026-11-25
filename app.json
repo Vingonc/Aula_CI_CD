@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "VINICIUS_CI_CD",
+    "slug": "VINICIUS_CI_CD",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vinigon.viniciuscicd"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.vinigon.viniciuscicd"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "owner": "vinigon",
+    "extra": {
+      "eas": {
+        "projectId": "cadaf2c4-4dfa-4527-b738-148a0384af25"
+      }
+    }
+  }
+}
